@@ -46,7 +46,7 @@ def save_output(data):
 
 if __name__ == "__main__":
     # Step 1: Upload input to S3
-  # upload_to_s3("data.json")
+    upload_to_s3("data.json")
 
     # Step 2: Download from S3
     data = download_from_s3("data.json")
